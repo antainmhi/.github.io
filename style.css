@@ -1,0 +1,37 @@
+
+@media(min-witdth: 768px){
+    .container-1{
+        display: flex;
+    }
+}
+
+
+
+body{
+    background-color: rgb(188, 236, 236);
+    font-family: Helvetica;
+}
+
+.container-1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+
+.box-1{
+    flex: 1;
+    order: 1;
+}
+
+.box-2{
+    flex: 1;
+    order: 2;
+}
+
+.box-3{
+    flex: 1;
+    order: 3;
+}
