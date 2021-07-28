@@ -18,13 +18,14 @@ body{
     justify-content: flex-start;
     border: 1px #ccc solid;
     padding: 10px;
-    background-color: #F0F8FF;
+    
 }
 
 
 .box-1{
     flex: 1;
     order: 1;
+    background-color: #f0F8FF;
 }
 
 .box-2{
